@@ -11,11 +11,9 @@ Dev.create(name: "Mr. Meseeks")
 Dev.create(name: "Gazorpazop")
 
 puts "Creating freebies..."
-
-# ***************************************************************
-# * TODO: create freebies! Remember, a freebie belongs to a dev *
-# * and a freebie belongs to a company.                         *
-# ***************************************************************
-# Create freebies Here
+Freebie.create(item_name: "IPad Pro", value: 800)
+Freebie.create(item_name: "Apple Pen", value: 150)
+Freebie.create(item_name: "MacBook Pro", value: 1500)
+Freebie.create(item_name: "IPhone 13", value: 1600)
 
 puts "Seeding done!"
